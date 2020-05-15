@@ -1,6 +1,6 @@
 {
   "name": "cl-opts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The cl-opts is a package that allows you to easily set options.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
