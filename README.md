@@ -4,12 +4,13 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/min/cl-opts)
 ![npm license](https://img.shields.io/npm/l/cl-opts)
 ![npm downloads](https://img.shields.io/npm/dt/cl-opts)
+![npm type definitions](https://img.shields.io/npm/types/cl-opts)
 
 ## Description
 
 The cl-opts is a package that allows you to easily set options.
 
-[View on npm](https://www.npmjs.com/package/argumints)
+[View on npm](https://www.npmjs.com/package/cl-opts)
 
 [View on github](https://github.com/yattaki/cl-opts)
 
