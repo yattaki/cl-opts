@@ -1,0 +1,45 @@
+{
+  "name": "cl-opts",
+  "version": "1.0.0",
+  "description": "The cl-opts is a package that allows you to easily set options.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rimraf dist && rollup -c",
+    "dev": "npm run rollup -- -w",
+    "eslint": "eslint src/index.ts",
+    "build": "npm run eslint && npm run rollup",
+    "commit": "npm run build && git add . && npx git-cz",
+    "push": "git push && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yattaki/cl-opts.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "options"
+  ],
+  "author": "yattaki <kozinnyou2015@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yattaki/cl-opts/issues"
+  },
+  "homepage": "https://github.com/yattaki/cl-opts#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^4.1.1",
+    "@types/node": "^13.13.5",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^7.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.10.2",
+    "typescript": "^3.8.3"
+  }
+}

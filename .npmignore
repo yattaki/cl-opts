@@ -1,0 +1,10 @@
+/node_modules/
+/examples/
+/src/
+/rollup.config.js
+/tsconfig.json
+.gitignore
+.npmignore
+.eslintignore
+.eslintrc
+.DS_Store
